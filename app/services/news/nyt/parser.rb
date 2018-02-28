@@ -14,11 +14,11 @@ module News
     private
 
     def attributes
-      {
-        title: top_result["title"],
-        abstract: top_result["abstract"],
-        url: top_result["url"]
-      }
+      title = "#{top_result["title"]}\n\n"
+      abstract = "#{top_result["abstract"]}\n\n"
+      url = "#{top_result["url"]}"
+
+      title + abstract + url
     end
 
     def top_result

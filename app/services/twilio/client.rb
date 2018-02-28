@@ -15,7 +15,5 @@ class Twilio::Client
       to: ENV["MY_PHONE_NUMBER"],
       from: ENV["TWILIO_PHONE_NUMBER"]
     )
-
-    puts message.sid
   end
 end
