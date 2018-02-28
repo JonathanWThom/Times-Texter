@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app emails me the top story from the NYT once a day.
 
-Things you may want to cover:
+Uses the [NYT](https://developer.nytimes.com) and [Twilio](https://www.twilio.com) APIs.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+There's a lot more to be done here, but it works!
