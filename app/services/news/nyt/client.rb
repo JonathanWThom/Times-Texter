@@ -22,5 +22,4 @@ module News
     end
   end
 end
-
 ## error conditions?
