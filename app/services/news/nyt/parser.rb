@@ -15,7 +15,7 @@ module News
 
     def attributes
       title = "#{top_result["title"]}\n\n"
-      abstract = "#{top_result["abstract"]}\n\n"
+      abstract = "#{top_result["abstract"]}"
       url = "#{top_result["url"]}"
 
       title + abstract + url
